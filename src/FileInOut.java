@@ -85,14 +85,14 @@ public class FileInOut
 	}
 	
 	//creates flash card objects from temp array
-	public static FlashCard createFC(String[] temp)
+	public static FlashCard<String> createFC(String[] temp)
 	{
 		//assign 1st position to question
 		String question = temp[0];
 		//assign 2nd position to answer
 		String answer = temp[1];
 		//returns new flash card holding question and answer
-		return new FlashCard(question,answer);
+		return new FlashCard<String>(question,answer);
 	}
 
 }
