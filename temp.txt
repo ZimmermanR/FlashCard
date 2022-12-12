@@ -1,0 +1,8 @@
+How many cups are in one quart?,4 cups in a quart.
+How many ounces are in one gallon?,128 ounces in a gallon.
+How many centimeters are in one foot?,30.5 centimeters in one foot.
+TEST123,TEST123
+TEST456,TEST456
+TEST789,TEST789
+Number of days in a year,365
+[Ljava.lang.String;@68837a77
