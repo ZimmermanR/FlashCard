@@ -14,6 +14,10 @@ import java.util.*;
 import java.io.*;
 
 public class Flash_EmGUI extends JFrame{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private final int WIDTH = 450;
 	private final int HEIGHT = 300;
 	private JPanel MainPanel,AnsPanel,DPanel;

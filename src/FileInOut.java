@@ -11,6 +11,13 @@ ARRAYLIST THEN EXPORTS TO "flashcards2.csv"
 */
 import java.util.*;
 import java.io.*;
+import java.io.File;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.DocumentBuilder;
+import org.w3c.dom.Document;
+import org.w3c.dom.NodeList;
+import org.w3c.dom.Node;
+import org.w3c.dom.Element;
 
 public class FileInOut
 {
@@ -53,6 +60,7 @@ public class FileInOut
 		//returns the ArrayList containing flash card objects
 		return FC;
 	}
+
 	//writes flashcards to csv file
 	public static void writeCSV(ArrayList<FlashCard<String>> fc)
 	{
@@ -84,6 +92,31 @@ public class FileInOut
 		{ioe.printStackTrace();}
 	}
 	
+	public static ArrayList<FlashCard<String>> readXML(String filename)
+	{
+		ArrayList<FlashCard<String>> FC = new ArrayList<FlashCard<String>>();
+		
+		try {
+	         File inputFile = new File(filename);
+	         DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
+	         DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
+	         Document doc = dBuilder.parse(inputFile);
+	         doc.getDocumentElement().normalize();
+	         NodeList nList = doc.getElementsByTagName("flashCard");
+	         
+	         for (int temp = 0; temp < nList.getLength(); temp++) {
+	            Node nNode = nList.item(temp);
+	            if (nNode.getNodeType() == Node.ELEMENT_NODE) {
+	                Element eElement = (Element) nNode;
+	                FlashCard<String> flashCard = new FlashCard<String>(eElement.getElementsByTagName("question").item(0).getTextContent(), eElement.getElementsByTagName("answer").item(0).getTextContent());
+	                FC.add(flashCard);
+	            }
+	         }
+	      } catch (Exception e) {
+	         e.printStackTrace();
+	      }
+		return FC;
+	}
 	//creates flash card objects from temp array
 	public static FlashCard<String> createFC(String[] temp)
 	{

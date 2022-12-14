@@ -1,2 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<first></first>
+
+<flashCards>
+	<flashCard id="1">
+		<question>Term referring to a service with little down time over an extended period of time.</question>
+		<answer>High Availability</answer>
+	</flashCard>
+	<flashCard id="3">
+		<question>Responsibility for these is always retained by customer (you are always responsible)</question>
+		<answer>Information and data, devices (Mobile and PCs), accounts and identities</answer>
+	</flashCard>
+	<flashCard id="4">
+		<question>Responsibility for these varies by type (determined by service model)</question>
+		<answer>Identity and directory infrastructure, applications, network controls, operating system</answer>
+	</flashCard>
+	<flashCard id="5">
+		<question>Responsibility for these transfers to cloud provider (cloud provider is always responsible for)</question>
+		<answer>Physical hosts, physical network, physical data center</answer>
+	</flashCard>
+	<flashCard id="6">
+		<question>Refers to the spending of money on physical infrastructure before operations begin, deducting said expense from taxes over time.</question>
+		<answer>CapEx</answer>
+	</flashCard>
+	<flashCard id="7">
+		<question>What are the three main cloud models?</question>
+		<answer>Public, private, hybrid</answer>
+	</flashCard>
+	<flashCard id="8">
+		<question>Single entity cloud. Greater cost with fewer public cloud benefits. May be hosted on or off-site.</question>
+		<answer>Private cloud</answer>
+	</flashCard>
+	<flashCard id="9">
+		<question>Built, controlled, and maintained by a third-party provider. Offers general availability (key difference).</question>
+		<answer>Public cloud</answer>
+	</flashCard>
+</flashCards>
