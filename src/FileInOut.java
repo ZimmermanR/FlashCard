@@ -78,7 +78,7 @@ public class FileInOut
 			//error catch
 			catch(IndexOutOfBoundsException e) {}
 			bw.close();
-		}
+		} 
 		//error catch
 		catch(IOException ioe)
 		{ioe.printStackTrace();}
