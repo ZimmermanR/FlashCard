@@ -22,7 +22,7 @@ public class FileInOut
 	//error catch
 	try
 	{
-		//creates file from csv
+		//
 		File file = new File(filename);
 		//creates reader from file
 		FileReader fr = new FileReader(file);

@@ -194,7 +194,8 @@ public class Flash_EmGUI extends JFrame{
 	}
 	private class ButtonListener implements ActionListener{
 		public void actionPerformed(ActionEvent e){
-			if(e.getSource()==prev){
+			if(e.getSource()==prev) {
+				//
 				if(index == 0){
 					index = cards.size()-1;
 				}
