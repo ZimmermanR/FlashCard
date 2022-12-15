@@ -34,7 +34,7 @@ public class Flash_EmGUI extends JFrame{
 	private int counter=0;
 	private int index = 0;
 	public Flash_EmGUI(ArrayList<FlashCard<String>> yeet){
-		super("Flash Cards Wooooooo");
+		super("Flash!");
 		cards = yeet; //:)
 		setSize(WIDTH,HEIGHT);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -177,7 +177,7 @@ public class Flash_EmGUI extends JFrame{
 				}
 			}
 			else if(e.getSource()==Export){
-				FileInOut.writeCSV(cards);
+				FileInOut.writeXML(cards, "az900.xml");
 			}
 			else if(e.getSource()==Sort){
 				Module3.sort(cards);

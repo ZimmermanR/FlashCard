@@ -1,36 +1,34 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<flashCards>
-	<flashCard id="1">
-		<question>Term referring to a service with little down time over an extended period of time.</question>
-		<answer>High Availability</answer>
-	</flashCard>
-	<flashCard id="3">
-		<question>Responsibility for these is always retained by customer (you are always responsible)</question>
-		<answer>Information and data, devices (Mobile and PCs), accounts and identities</answer>
-	</flashCard>
-	<flashCard id="4">
-		<question>Responsibility for these varies by type (determined by service model)</question>
-		<answer>Identity and directory infrastructure, applications, network controls, operating system</answer>
-	</flashCard>
-	<flashCard id="5">
-		<question>Responsibility for these transfers to cloud provider (cloud provider is always responsible for)</question>
-		<answer>Physical hosts, physical network, physical data center</answer>
-	</flashCard>
-	<flashCard id="6">
-		<question>Refers to the spending of money on physical infrastructure before operations begin, deducting said expense from taxes over time.</question>
-		<answer>CapEx</answer>
-	</flashCard>
-	<flashCard id="7">
-		<question>What are the three main cloud models?</question>
-		<answer>Public, private, hybrid</answer>
-	</flashCard>
-	<flashCard id="8">
-		<question>Single entity cloud. Greater cost with fewer public cloud benefits. May be hosted on or off-site.</question>
-		<answer>Private cloud</answer>
-	</flashCard>
-	<flashCard id="9">
-		<question>Built, controlled, and maintained by a third-party provider. Offers general availability (key difference).</question>
-		<answer>Public cloud</answer>
-	</flashCard>
-</flashCards>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><flashCards>
+	<FlashCard id="1">
+		<QUESTION>Term referring to a service with little down time over an extended period of time.</QUESTION>
+		<ANSWER>High Availability</ANSWER>
+	</FlashCard>
+	<FlashCard id="3">
+		<QUESTION>Responsibility for these is always retained by customer (you are always responsible)</QUESTION>
+		<ANSWER>Information and data, devices (Mobile and PCs), accounts and identities</ANSWER>
+	</FlashCard>
+	<FlashCard id="4">
+		<QUESTION>Responsibility for these varies by type (determined by service model)</QUESTION>
+		<ANSWER>Identity and directory infrastructure, applications, network controls, operating system</ANSWER>
+	</FlashCard>
+	<FlashCard id="5">
+		<QUESTION>Responsibility for these transfers to cloud provider (cloud provider is always responsible for)</QUESTION>
+		<ANSWER>Physical hosts, physical network, physical data center</ANSWER>
+	</FlashCard>
+	<FlashCard id="6">
+		<QUESTION>Refers to the spending of money on physical infrastructure before operations begin, deducting said expense from taxes over time.</QUESTION>
+		<ANSWER>CapEx</ANSWER>
+	</FlashCard>
+	<FlashCard id="7">
+		<QUESTION>What are the three main cloud models?</QUESTION>
+		<ANSWER>Public, private, hybrid</ANSWER>
+	</FlashCard>
+	<FlashCard id="8">
+		<QUESTION>Single entity cloud. Greater cost with fewer public cloud benefits. May be hosted on or off-site.</QUESTION>
+		<ANSWER>Private cloud</ANSWER>
+	</FlashCard>
+	<FlashCard id="9">
+		<QUESTION>Built, controlled, and maintained by a third-party provider. Offers general availability (key difference).</QUESTION>
+		<ANSWER>Public cloud</ANSWER>
+	</FlashCard>
+	<FlashCard><ID>8</ID><QUESTION>Cloud computing is a delivery model for what four service types?</QUESTION><ANSWER>Storage, Analytics, Compute, Networking</ANSWER></FlashCard><FlashCard><ID>91</ID><QUESTION>List the three most appropriate words that describe how the cloud helps with resource allocation:</QUESTION><ANSWER>Agility, Elasticity, Scalability</ANSWER></FlashCard><FlashCard><ID>101</ID><QUESTION>What describes the ability to have an interruption or fault in your service without your application going offline?</QUESTION><ANSWER>Fault Tolerance</ANSWER></FlashCard><FlashCard><ID>111</ID><QUESTION>Skype is an example of which service type?</QUESTION><ANSWER>SaaS - typically licensed through a monthly or annual subscription.</ANSWER></FlashCard><FlashCard><ID>121</ID><QUESTION>Which format does the Azure Resource Manager templates use?</QUESTION><ANSWER>JSON - you can use templates to easily recreate multiple versions of your infrastructure (staging, production, etc).</ANSWER></FlashCard><FlashCard><ID>131</ID><QUESTION>What is an Azure Zone?</QUESTION><ANSWER>Specific connections based on geography to allow for fail-over support and backup of mission critical data.</ANSWER></FlashCard><FlashCard><ID>141</ID><QUESTION>Which service is used to ensure availability during maintenance events?</QUESTION><ANSWER>Availability Set. Availability sets provide VM redundancy and availability. This configuration within a datacenter (Availability Zone) ensures that during either a planned or unplanned maintenance event, at least one vm is available and meets the 99.95% Azure SLA.</ANSWER></FlashCard><FlashCard><ID>151</ID><QUESTION>Microsoft Azure data centers are organized and made available by what?</QUESTION><ANSWER>Regions</ANSWER></FlashCard><FlashCard><ID>161</ID><QUESTION>Which Azure compute resource can be used to deploy and manage a set of identical vms?</QUESTION><ANSWER>Virtual machine scale sets</ANSWER></FlashCard><FlashCard><ID>171</ID><QUESTION>Which service is a distributed network of servers that can efficiently deliver web content to users?</QUESTION><ANSWER>Azure Content Delivery Network</ANSWER></FlashCard><FlashCard><ID>181</ID><QUESTION>Which storage type is optimized for storing massive amounts of unstructured data such as videos and images?</QUESTION><ANSWER>Blobs. Azure Blob storage is Microsoft's object storage solution for the cloud. Blob storage is optimized for storing massive amounts of unstructured data, such as text or binary.</ANSWER></FlashCard><FlashCard><ID>191</ID><QUESTION>Which Azure service distributes traffic among similar systems, making yoru services more highly available?</QUESTION><ANSWER>Azure Load Balancer</ANSWER></FlashCard><FlashCard><ID>201</ID><QUESTION>Which service is used when someone is only concerned with the code running the service, not the underlying infrastructure?</QUESTION><ANSWER>Azure Functions</ANSWER></FlashCard><FlashCard><ID>211</ID><QUESTION>Which cloud services provides development collaboration tools including high-performance pipelines, free private Git repositories, and configurable Kanban boards?</QUESTION><ANSWER>Azure DevOps Services</ANSWER></FlashCard><FlashCard><ID>101</ID><QUESTION>What describes the ability to have an interruption or fault in your service withour your application going offline?</QUESTION><ANSWER>Fault Tolerance</ANSWER></FlashCard><FlashCard><ID>141</ID><QUESTION>Which service is used to ensure availability during maintenace events?</QUESTION><ANSWER>Availability Set. Availability sets provide VM redundancy and availability. This configuration within a datacenter (Availability Zone) ensures that during either a planned or unplanned maintenance event, at least one vm is available and meets the 99.95% Azure SLA.</ANSWER></FlashCard><FlashCard><ID>151</ID><QUESTION>Micorsoft Azure datacenters are organized and made available by what?</QUESTION><ANSWER>Regions</ANSWER></FlashCard><FlashCard><ID>221</ID><QUESTION>What is HDInsight?</QUESTION><ANSWER>A big data storage and analytics system.</ANSWER></FlashCard><FlashCard><ID>231</ID><QUESTION>What is Azure Event Grid?</QUESTION><ANSWER>Azure Event Grid lets you track and respond to events your applications produce.</ANSWER></FlashCard><FlashCard><ID>241</ID><QUESTION>What can you use Azure Machine Learning service for?</QUESTION><ANSWER>To develop, train, test, deploy, manage, and track machine learning models.</ANSWER></FlashCard><FlashCard><ID>251</ID><QUESTION>When managing Azure services remotely from an Android phone, which management tools would best facilitate the task with the least amount of administrative effort?</QUESTION><ANSWER>Azure CLI or Azure Cloud Shell</ANSWER></FlashCard><FlashCard><ID>261</ID><QUESTION>What is a virtual private network?</QUESTION><ANSWER>A dedicated connection between two points</ANSWER></FlashCard></flashCards>

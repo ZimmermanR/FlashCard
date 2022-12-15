@@ -1,12 +1,27 @@
-Elasticity,.
-﻿High Availability,Term referring to a service with little downtime over an extended period of time. A low downtime/time
-What is Cloud Computing?,"The delivery of computing services over the Internet offering Infrastructure ()VMs
-Responsibility transfers to cloud provider,"Physical hosts
-What is Capex?,"Refers to the spending of money on phyisical infrastructure before operations begin
-Disaster Recovery,.
-Storage,.
-Responsibilities always retained by customer,"Information and data
-Scalability,.
-Agility,.
-Responsibilities that vary by type,"Identity and directory infrastructure
-Fault Tolerance,Ability to have an interruption (fault) in your service without the application going offline
+Term referring to a service with little down time over an extended period of time.,High Availability
+Responsibility for these is always retained by customer (you are always responsible),Information and data, devices (Mobile and PCs), accounts and identities
+Responsibility for these varies by type (determined by service model),Identity and directory infrastructure, applications, network controls, operating system
+Responsibility for these transfers to cloud provider (cloud provider is always responsible for),Physical hosts, physical network, physical data center
+Refers to the spending of money on physical infrastructure before operations begin, deducting said expense from taxes over time.,CapEx
+What are the three main cloud models?,Public, private, hybrid
+Single entity cloud. Greater cost with fewer public cloud benefits. May be hosted on or off-site.,Private cloud
+Built, controlled, and maintained by a third-party provider. Offers general availability (key difference).,Public cloud
+Cloud computing is a delivery model for what four service types?,Storage, Analytics, Compute, Networking
+List the three most appropriate words that describe how the cloud helps with resource allocation:,Agility, Elasticity, Scalability
+What describes the ability to have an interruption or fault in your service withour your application going offline?,Fault Tolerance
+Skype is an example of which service type?,SaaS - typically licensed through a monthly or annual subscription.
+Which format does the Azure Resource Manager templates use?,JSON - you can use templates to easily recreate multiple versions of your infrastructure (staging, production, etc).
+What is an Azure Zone?,Specific connections based on geography to allow for fail-over support and backup of mission critical data.
+Which service is used to ensure availability during maintenace events?,Availability Set. Availability sets provide VM redundancy and availability. This configuration within a datacenter (Availability Zone) ensures that during either a planned or unplanned maintenance event, at least one vm is available and meets the 99.95% Azure SLA.
+Micorsoft Azure datacenters are organized and made available by what?,Regions
+Which Azure compute resource can be used to deploy and manage a set of identical vms?,Virtual machine scale sets
+Which service is a distributed network of servers that can efficiently deliver web content to users?,Azure Content Delivery Network
+Which storage type is optimized for storing massive amounts of unstructured data such as videos and images?,Blobs. Azure Blob storage is Microsoft's object storage solution for the cloud. Blob storage is optimized for storing massive amounts of unstructured data, such as text or binary.
+Which Azure service distributes traffic among similar systems, making yoru services more highly available?,Azure Load Balancer
+Which service is used when someone is only concerned with the code running the service, not the underlying infrastructure?,Azure Functions
+Which cloud services provides development collaboration tools including high-performance pipelines, free private Git repositories, and configurable Kanban boards?,Azure DevOps Services
+What is HDInsight?,A big data storage and analytics system.
+What is Azure Event Grid?,Azure Event Grid lets you track and respond to events your applications produce.
+What can you use Azure Machine Learning service for?,To develop, train, test, deploy, manage, and track machine learning models.
+When managing Azure services remotely from an Android phone, which management tools would best facilitate the task with the least amount of administrative effort?,Azure CLI or Azure Cloud Shell
+What is a virtual private network?,A dedicated connection between two points

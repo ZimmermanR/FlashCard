@@ -41,7 +41,7 @@ public class UserEdit extends FileInOut {
 				if(i == index - 1) {
 					flashCardArray.remove(i);
 					flashCardArray.add(i, FC);
-					writeCSV(flashCardArray);
+					writeXML(flashCardArray, "az900.xml");
 				}
 			}catch(ArrayIndexOutOfBoundsException e) {
 
