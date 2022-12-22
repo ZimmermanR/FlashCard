@@ -8,20 +8,34 @@ Single entity cloud. Greater cost with fewer public cloud benefits. May be hoste
 Built, controlled, and maintained by a third-party provider. Offers general availability (key difference).,Public cloud
 Cloud computing is a delivery model for what four service types?,Storage, Analytics, Compute, Networking
 List the three most appropriate words that describe how the cloud helps with resource allocation:,Agility, Elasticity, Scalability
-What describes the ability to have an interruption or fault in your service withour your application going offline?,Fault Tolerance
+What describes the ability to have an interruption or fault in your service without your application going offline?,Fault Tolerance
 Skype is an example of which service type?,SaaS - typically licensed through a monthly or annual subscription.
 Which format does the Azure Resource Manager templates use?,JSON - you can use templates to easily recreate multiple versions of your infrastructure (staging, production, etc).
 What is an Azure Zone?,Specific connections based on geography to allow for fail-over support and backup of mission critical data.
-Which service is used to ensure availability during maintenace events?,Availability Set. Availability sets provide VM redundancy and availability. This configuration within a datacenter (Availability Zone) ensures that during either a planned or unplanned maintenance event, at least one vm is available and meets the 99.95% Azure SLA.
-Micorsoft Azure datacenters are organized and made available by what?,Regions
+Which service is used to ensure availability during maintenance events?,Availability Set. Availability sets provide VM redundancy and availability. This configuration within a datacenter (Availability Zone) ensures that during either a planned or unplanned maintenance event, at least one vm is available and meets the 99.95% Azure SLA.
+Microsoft Azure data centers are organized and made available by what?,Regions
 Which Azure compute resource can be used to deploy and manage a set of identical vms?,Virtual machine scale sets
 Which service is a distributed network of servers that can efficiently deliver web content to users?,Azure Content Delivery Network
 Which storage type is optimized for storing massive amounts of unstructured data such as videos and images?,Blobs. Azure Blob storage is Microsoft's object storage solution for the cloud. Blob storage is optimized for storing massive amounts of unstructured data, such as text or binary.
 Which Azure service distributes traffic among similar systems, making yoru services more highly available?,Azure Load Balancer
 Which service is used when someone is only concerned with the code running the service, not the underlying infrastructure?,Azure Functions
 Which cloud services provides development collaboration tools including high-performance pipelines, free private Git repositories, and configurable Kanban boards?,Azure DevOps Services
+What describes the ability to have an interruption or fault in your service withour your application going offline?,Fault Tolerance
+Which service is used to ensure availability during maintenace events?,Availability Set. Availability sets provide VM redundancy and availability. This configuration within a datacenter (Availability Zone) ensures that during either a planned or unplanned maintenance event, at least one vm is available and meets the 99.95% Azure SLA.
+Micorsoft Azure datacenters are organized and made available by what?,Regions
 What is HDInsight?,A big data storage and analytics system.
 What is Azure Event Grid?,Azure Event Grid lets you track and respond to events your applications produce.
 What can you use Azure Machine Learning service for?,To develop, train, test, deploy, manage, and track machine learning models.
 When managing Azure services remotely from an Android phone, which management tools would best facilitate the task with the least amount of administrative effort?,Azure CLI or Azure Cloud Shell
 What is a virtual private network?,A dedicated connection between two points
+What is Azure Arc?,A set of technologies that helps manage your cloud environment.
+What is VMware Solution?,Allows migration from private to public or hybrid; supports integration and scalability.
+4 benefits of the consumption-based model,No upfront costs, no need to purchase and manage infrastructure, start and stop paying for resources as needed
+What is veritcal scaling?,The ability to increase/decrease processing power by adding/removing more CPUs or RAM to the virtual machine.
+What is horizontal scaling?,The ability to add/remove vms, containers, etc.
+What do set templates do?,Help ensure that deployed resources meet corporate standards and government regulatory requirements.
+Which service model should be used if you want maximum control of security?,IaaS - this model provides you with physical resources but lets you manage the OS and software, including patches and maintenance. For automatic pathching and maintenance, use a PaaS or SaaS model.
+What is the difference between management of the cloud and management in the cloud?,Management of the cloud refers to managing your resources while management in the cloud refers to how you manage said resources.
+Which category of cloud services would be best for lift-and-shift migration or testing and development?,IaaS - Testing and development is predicated on you having established configurations for the environments which need rapid replication.
+Which cloud service catagory would best fit a company who wants to build off of a development framework or access to business intelligence services (analytics, etc.)?,PaaS
+Which cloud service category is at play in emails and messaging, business productivity apps, or finance and expense tracking?,SaaS
